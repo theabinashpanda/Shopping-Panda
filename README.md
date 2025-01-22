@@ -4,6 +4,7 @@ A web application that allows users to list, view, update, and delete products w
 
 ## Table of Contents
 
+- [UML Design](#uml-design)
 - [Features](#features)
 - [Technology Stack](#technology-stack)
 - [Installation](#installation)
@@ -11,7 +12,14 @@ A web application that allows users to list, view, update, and delete products w
 - [API Endpoints](#api-endpoints)
 - [Running the Backend](#running-the-backend)
 - [Test and Coverage Reports](#test-and-coverage-reports)
+- [Screenshots](#screenshots)
 - [Additional Knowledge](#additional-knowledge)
+
+## UML Design
+
+The following diagram represents the architecture and flow of the Shopping-Panda application:
+
+![image](https://github.com/user-attachments/assets/eca06b33-f5be-4a5f-ab77-85494944fb0b)
 
 ## Features
 
@@ -114,6 +122,28 @@ A web application that allows users to list, view, update, and delete products w
   ```
 - The coverage reports will be generated in the `target/site/jacoco` directory. Open the `index.html` file in a web browser to view the coverage details.
 
+## Screenshots
+
+Below are some screenshots showcasing the Shopping-Panda application:
+
+1. **Home Page**:
+  <img width="1680" alt="Screenshot 2025-01-23 at 3 01 28 AM" src="https://github.com/user-attachments/assets/04c8a393-e992-4c64-b02e-ee9cac59e73d" />
+
+2. **Product List**:
+   ![Product List](screenshots/product-list.png)
+
+3. **Product Details**:
+    <img width="1680" alt="image" src="https://github.com/user-attachments/assets/a8b0ebb4-b6a4-47ab-b9ea-e77889ece807" />
+
+4. **Add/Edit Product Form**:
+   <img width="1680" alt="image" src="https://github.com/user-attachments/assets/5751e161-484d-4c53-ae4f-ad60b84d33c6" />
+   <img width="1679" alt="image" src="https://github.com/user-attachments/assets/5924ca1b-cd82-423f-9388-9b13f408a596" />
+
+
+5. **Search Functionality**:
+   
+    <img width="370" alt="image" src="https://github.com/user-attachments/assets/4a6d8a96-9517-455e-a0f6-9d2ab5cb7ebe" />
+
 ## Additional Knowledge
 
 ### Initializing a Spring Boot Project from start.spring.io
@@ -122,6 +152,8 @@ To create a new Spring Boot project from **start.spring.io**, follow these steps
 
 #### 1. **Open start.spring.io**
    - Navigate to [start.spring.io](https://start.spring.io) in your web browser.
+     <img width="1678" alt="image" src="https://github.com/user-attachments/assets/53580132-d1fa-40b7-b193-16f7b9ad07fd" />
+
 
 #### 2. **Project Configuration**
    - Choose the project type:
