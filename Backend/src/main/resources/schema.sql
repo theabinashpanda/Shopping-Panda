@@ -1,4 +1,7 @@
-DROP TABLE IF EXISTS `abinash`.`product`;
+-- Dropping table product if already existing in the database
+DROP TABLE IF EXISTS `product`;
+
+-- Table creation
 CREATE TABLE product (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255),
@@ -13,6 +16,8 @@ CREATE TABLE product (
     image_type VARCHAR(255),
     image_date LONGBLOB
 );
+
+-- Data population
 INSERT INTO Product (name, description, brand, price, category, release_date, product_available, stock_quantity) VALUES
 ('Laptop', 'High-performance laptop', 'TechBrand', 1200.50, 'Electronics', '2023-10-10', true, 50),
 ('Smartphone', 'Latest model smartphone', 'MobileTech', 800.00, 'Electronics', '2024-01-15', true, 200),
